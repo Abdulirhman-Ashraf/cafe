@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe</title>
+    <!-- AOS library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- delete default css style -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootStrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>    
+      <!-- start header -->
+    <div class="header ps-5 pe-5" id="home">
+  <!-- start nav -->
+    <nav class="navbar navbar-expand-lg ">
+        <a class="navbar-brand" href="#" style="font-size: 30px;">coffee</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler " style="color: aliceblue !important; "><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav m-auto
+          " >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#coffee">coffee</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#dessert" >bakery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#shop">shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#review">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#join">login</a>
+            </li>
+          </ul>
+
+          <di
+            class=" btn"
+            href="#searchToggle"
+            data-bs-target="#searchToggle"
+            data-bs-toggle="collapse"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </di>
+        </div>
+      
+      
+    </nav>
+      <!-- end nav -->
+      <!-- start home -->
+
+    <div class="text">
+      <h3>welcome!</h3>
+      <h2>we serve the richest coffee <br> in the city!</h2>
+      <br>
+      <button type="button" class="btn btn-light" style="border-radius: 20px; font-weight: bold;">order now</button>
+    </div>
+  </div>
+      <!-- end home -->
+
+      <!-- end header -->
+<!-- start icons -->
+    <div class="secOne">
+      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 2048 2048"><path fill="currentColor" d="M576 544q-26 0-45-19t-19-45q0-23-14-41t-33-30q-35-24-71-48t-68-52t-50-65t-20-84q0-26 19-45t45-19t45 19t19 45q0 23 14 41t33 30q34 24 71 48t68 52t50 65t20 84q0 26-19 45t-45 19m448 0q-26 0-45-19t-19-45q0-23-14-41t-33-30q-35-24-71-48t-68-52t-50-65t-20-84q0-26 19-45t45-19t45 19t19 45q0 23 14 41t33 30q34 24 71 48t68 52t50 65t20 84q0 26-19 45t-45 19m448 0q-26 0-45-19t-19-45q0-23-14-41t-33-30q-35-24-71-48t-68-52t-50-65t-20-84q0-26 19-45t45-19t45 19t19 45q0 23 14 41t33 30q34 24 71 48t68 52t50 65t20 84q0 26-19 45t-45 19m133 736q-33 75-82 138t-110 118h443v128q0 45-14 90t-40 82t-65 60t-89 24H208q-50 0-88-23t-65-60t-41-82t-14-91v-128h379q-118-103-184-239t-67-294V640h1605q66 0 123 25t100 69t67 102t25 124q0 65-24 123t-67 102t-100 69t-124 26zm59-512q0 42 1 84t1 85q0 55-3 109t-16 106h86q39 0 73-15t60-42t39-61t15-74q0-39-14-74t-40-61t-59-41t-74-16zM256 1003q0 88 26 169t75 150t114 123t145 91h560q79-36 145-90t114-124t74-150t27-169V768H256zm1392 789q21 0 36-14t25-33t14-42t5-39H128q0 17 4 39t15 41t25 34t36 14z"/></svg>      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="4"><path stroke-linecap="round" stroke-linejoin="round" d="M15 24h18l-1.8 20H16.8z"/><rect width="26" height="6" x="11" y="18" rx="3"/><path d="M24 8c-5.523 0-10 4.477-10 10h20c0-5.523-4.477-10-10-10Z"/><path stroke-linecap="round" d="m28 4l-2 4"/></g></svg>    
+      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m20.216 6.415l-.132-.666c-.119-.598-.388-1.163-1.001-1.379c-.197-.069-.42-.098-.57-.241c-.152-.143-.196-.366-.231-.572c-.065-.378-.125-.756-.192-1.133c-.057-.325-.102-.69-.25-.987c-.195-.4-.597-.634-.996-.788a6 6 0 0 0-.626-.194c-1-.263-2.05-.36-3.077-.416a26 26 0 0 0-3.7.062c-.915.083-1.88.184-2.75.5c-.318.116-.646.256-.888.501c-.297.302-.393.77-.177 1.146c.154.267.415.456.692.58c.36.162.737.284 1.123.366c1.075.238 2.189.331 3.287.37q1.829.074 3.65-.118q.449-.05.896-.119c.352-.054.578-.513.474-.834c-.124-.383-.457-.531-.834-.473c-.466.074-.96.108-1.382.146q-1.767.12-3.536.006a22 22 0 0 1-1.157-.107c-.086-.01-.18-.025-.258-.036q-.364-.055-.724-.13c-.111-.027-.111-.185 0-.212h.005q.416-.09.838-.147h.002c.131-.009.263-.032.394-.048a25 25 0 0 1 3.426-.12q1.011.029 2.017.144l.228.031q.4.06.798.145c.392.085.895.113 1.07.542c.055.137.08.288.111.431l.319 1.484a.237.237 0 0 1-.199.284h-.003l-.112.015a37 37 0 0 1-4.743.295a37 37 0 0 1-4.699-.304c-.14-.017-.293-.042-.417-.06c-.326-.048-.649-.108-.973-.161c-.393-.065-.768-.032-1.123.161c-.29.16-.527.404-.675.701c-.154.316-.199.66-.267 1c-.069.34-.176.707-.135 1.056c.087.753.613 1.365 1.37 1.502a39.7 39.7 0 0 0 11.343.376a.483.483 0 0 1 .535.53l-.071.697l-1.018 9.907c-.041.41-.047.832-.125 1.237c-.122.637-.553 1.028-1.182 1.171q-.868.197-1.756.205c-.656.004-1.31-.025-1.966-.022c-.699.004-1.556-.06-2.095-.58c-.475-.458-.54-1.174-.605-1.793l-.731-7.013l-.322-3.094c-.037-.351-.286-.695-.678-.678c-.336.015-.718.3-.678.679l.228 2.185l.949 9.112c.147 1.344 1.174 2.068 2.446 2.272c.742.12 1.503.144 2.257.156c.966.016 1.942.053 2.892-.122c1.408-.258 2.465-1.198 2.616-2.657l1.024-9.995l.215-2.087a.48.48 0 0 1 .39-.426c.402-.078.787-.212 1.074-.518c.455-.488.546-1.124.385-1.766zm-1.478.772c-.145.137-.363.201-.578.233c-2.416.359-4.866.54-7.308.46c-1.748-.06-3.477-.254-5.207-.498c-.17-.024-.353-.055-.47-.18c-.22-.236-.111-.71-.054-.995c.052-.26.152-.609.463-.646c.484-.057 1.046.148 1.526.22q.865.132 1.737.212c2.48.226 5.002.19 7.472-.14q.675-.09 1.345-.21c.399-.072.84-.206 1.08.206c.166.281.188.657.162.974a.54.54 0 0 1-.169.364zm-6.159 3.9c-.862.37-1.84.788-3.109.788a6 6 0 0 1-1.569-.217l.877 9.004c.065.78.717 1.38 1.5 1.38c0 0 1.243.065 1.658.065c.447 0 1.786-.065 1.786-.065c.783 0 1.434-.6 1.499-1.38l.94-9.95a4 4 0 0 0-1.322-.238c-.826 0-1.491.284-2.26.613"/></svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512"><path fill="currentColor" d="M224.375 19.5c-.627.005-1.25.035-1.875.063c-22.916 1.004-39.905 16.736-45.063 35.093c-4.796 17.07-.468 35.99 21.688 49.907c-24.784 5.082-44.582 24.197-50.625 48.624L28.22 266.125l344.75-48.688c-4.686-11.665-7.433-24.554-7.72-37.875c-12.373 3.495-25.437 1.82-35.688-4.843c-12.483-8.115-19.316-24.395-15.156-42.97c-11-3.865-20.314-11.138-28.937-20.156c-2.67 1.933-5.597 3.722-8.876 5.47c-4.904 2.61-10.448 4.996-16.406 7.03a66.3 66.3 0 0 0-19.032-14.125a95 95 0 0 0 6-1.407c7.72-2.07 14.993-4.985 20.656-8c5.664-3.016 9.72-6.49 10.657-7.75l7.03-9.438l7.625 9c11.86 14.042 21.687 21.77 34.406 23.53l12.22 1.69l-4.938 11.31c-7.348 16.822-2.72 25.15 4.938 30.126c7.657 4.978 20.167 5.28 29.938-2.03l17.718-13.28l-2.844 21.968c-4.23 32.48 11.383 64.938 31.844 77.875c10.23 6.468 21.06 8.458 32.78 4.53c11.724-3.927 24.924-14.41 37.533-35.405c21.685-36.113-15.126-77.975-47.376-66.625l-12.75 4.5l.312-13.532c.912-37.316-34.334-67.822-74.344-59.03l-8.437 1.844l-2.53-8.25c-3.99-13.03-12.2-21.695-21.19-25.25c-8.988-3.556-18.85-2.703-29.155 5.625l-7.97 6.436l-5.686-8.53c-13.34-20.005-33.78-30.535-53.218-30.375zM212.28 121.906c1.566 0 3.102.072 4.626.22c-8.18 3.796-13.844 12.073-13.844 21.686c0 13.204 10.703 23.907 23.907 23.907c13.203 0 23.905-10.704 23.905-23.907c0-.646-.044-1.274-.094-1.907c5.35 7.632 8.5 16.92 8.5 27c0 6.146-1.19 12.007-3.31 17.375c-26.588 19.077-53.165 20.028-79.75 12.845c-6.835-8.157-10.94-18.68-10.94-30.22c0-26.063 20.937-47 47-47zm169.845 113.156L19.97 286.156v16.594l374.436-52.844c-4.555-4.38-8.67-9.372-12.28-14.844zm97.156 16.375c-6.23 5.497-12.678 9.638-19.28 12.5l-.75 169.125l11.625-1.187l8.406-.844V251.44zm-60.56 13.907L19.97 321.656v52.75l30.843-17.156l4.593-2.563l4.563 2.625c16.475 9.383 28.455 10.95 40.155 7.813c11.7-3.138 23.93-11.893 37.875-25.875l3.875-3.875l5.28 1.5c24.013 6.806 38.055 9.512 49.064 7.625c11.008-1.887 21.244-8.403 38.218-23.78l6.28-5.69l6.25 5.69c7.754 7.03 11.293 7.7 12.47 7.655c1.176-.045 3.25-1.242 7.937-4.344c4.688-3.1 11.853-7.25 21.53-7.655c8.286-.346 18.054 2.04 29.97 7.688c8.374-7.562 15.014-12.59 23.75-13.594c8.592-.99 15.815 2.258 24.906 7.092c6.724-5.367 13.502-8.383 20.033-9.156c8.26-.978 15.21 1.12 21 2.75s10.514 2.88 15.312 2.563c4.656-.31 9.9-1.895 17.25-7.5l.156-37.658c-7.78.51-15.41-.668-22.56-3.218zm-27.533 61.53c-.486.013-.968.04-1.437.095c-3.75.443-7.92 2.043-14.313 8.467l-4.906 4.938l-6.155-3.313c-11.897-6.416-17.156-8.315-19.625-8.03c-2.47.283-7.388 3.3-17.906 13.03l-4.906 4.532l-5.875-3.156c-13.036-7.02-21.216-8.59-26.375-8.375c-5.16.215-8 1.883-12 4.53c-4.002 2.648-9.25 7.153-17.532 7.47c-6.335.24-12.545-2.27-19.312-7.25c-14.828 12.75-27.21 20.65-41.47 23.093c-14.998 2.57-30.607-.71-52.186-6.687c-13.58 13.024-26.973 22.878-42.22 26.967c-15.368 4.123-31.947 1.747-49.5-7.156l-35.5 19.75v17.69c31.86-14.53 63.46-14.035 95.844-5.5c10.952-15 24.617-25.098 41.813-27.783c17.11-2.67 36.716 1.77 60.53 11.688c4.384-9.426 9.76-15.932 16.532-19.656c8.8-4.84 18.007-4.127 25.844-3.033c15.676 2.19 27.35 6.595 43.19-6.437l4.25-3.5l5.124 2.03c23.357 9.21 50.61 11.247 73.625-7.5l5.81-4.717l5.876 4.625c15.268 11.986 29.62 11.267 42.5 1.906l.125-27.5c-5.555 2.605-10.908 3.948-15.936 4.28c-8.64.573-15.835-1.597-21.594-3.218c-5.04-1.418-8.91-2.363-12.313-2.28zm1.72 45.626c-26.39 18.067-56.995 16.428-81.844 7.813c-20.187 13.676-40.456 9.14-53.094 7.375c-6.793-.95-11.016-.873-14.25.906c-3.237 1.78-7.39 6.21-11.532 18.47l-3.313 9.81l-9.438-4.28c-26.59-12.11-45.507-16.066-58.937-13.97c-13.43 2.098-22.934 9.533-32.813 25.032l-3.78 5.938l-6.75-2c-35.05-10.37-64.65-11.103-97.188 6.75v43.375l10.28-1.033l410.313-41.718l.25-58.44c-15.042 6.07-32.325 5.435-47.907-4.03z"/></svg>  
+    </div>
+<!-- end icons -->
+    <!-- start coffee -->
+    <div class="coffee" id="coffee">
+      <h2 >our special coffee</h2>
+      <div class="row row-cols-lg-4 row-cols-sm-2 g-4">
+        <div class="col">
+          <div class="card h-100 ">
+            <img src="images/2.jpg" class="card-img-top img-thumbnail " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card </p>
+              <div class="buttonGroup">
+                <div >19.4 $</div>
+                <button class="btn ">buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 ">
+            <img src="images/3.jpg" class="card-img-top img-thumbnail  " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+              <div class="buttonGroup">
+                <div>19.4 $</div>
+                <button class="btn ">buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/4.jpg" class="card-img-top img-thumbnail " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card </p>
+              <div class="buttonGroup">
+                <div >19.4 $</div>
+                <button class="btn ">buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/9.jpg" class="card-img-top img-thumbnail " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with s</p>
+              <div class="buttonGroup">
+                <div >19.4 $</div>
+                <button class="btn">buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+          <div class="div"  id="dessert"></div>
+    <!-- end coffee -->
+    <!-- start dessert -->
+    <div class="dessert coffee">
+      <h2 >our special dessert</h2>
+      <div class="row row-cols-lg-4  row-cols-sm-2 g-4 ">
+        <div class="col">
+          <div class="card h-100 ">
+            <img src="images/5.jpg" class="card-img-top img-thumbnail " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card </p>
+              <div class="buttonGroup">
+                <div >19.4 $</div>
+                <button class="btn ">buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 ">
+            <img src="images/6.jpg" class="card-img-top img-thumbnail  " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+              <div class="buttonGroup">
+                <div>19.4 $</div>
+                <button class="btn ">buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/7.jpg" class="card-img-top img-thumbnail " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card </p>
+              <div class="buttonGroup">
+                <div >19.4 $</div>
+                <button class="btn ">buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/3.jpg" class="card-img-top img-thumbnail " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with s</p>
+              <div class="buttonGroup">
+                <div >19.4 $</div>
+                <button class="btn">buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shop" id="shop">
+      <div class="text">      
+        <p>check out our best <br>coffee betans</p>
+        <button type=" button"class="btn ">Lorem ipsum dolor.</button>
+      </div>
+    </div>
+    <!-- start review -->
+    <div class="review" id="review">
+      <p>come and join</p>
+      <h2>our happy customers</h2>
+      <div class="contain">
+      <div class="review-box 1 ">
+        <div class="top ">
+          <div class="left  ">
+          <img src="images/C1.jfif" alt="">
+          <p>Ali Hossam 1<br>Lorem</p><br>
+        </div>
+        <div class="right">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+        </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatem soluta sed perspiciatis quod quidem reiciendis, sint dignissimos eveniet ratione dolores veniam deserunt harum repellat illum! Molestias corporis quo harum.</p>
+      </div>
+      <div class="review-box 1 ">
+        <div class="top ">
+          <div class="left  ">
+          <img src="images/C2.jfif" alt="">
+          <p>Ali Hossam 1<br>Lorem</p><br>
+        </div>
+        <div class="right">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatem soluta sed perspiciatis quod quidem reiciendis, sint dignissimos eveniet ratione dolores veniam deserunt harum repellat illum! Molestias corporis quo harum.</p>
+      </div>
+      <div class="review-box 1" >
+        <div class="top ">
+          <div class="left  ">
+          <img src="images/C1.jfif" alt="">
+          <p>Ali Hossam 1<br>Lorem</p><br>
+        </div>
+        <div class="right">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+        </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatem soluta sed perspiciatis quod quidem reiciendis, sint dignissimos eveniet ratione dolores veniam deserunt harum repellat illum! Molestias corporis quo harum.</p>
+      </div>
+      <div class="review-box 2 hidden">
+        <div class="top ">
+          <div class="left  ">
+          <img src="images/C2.jfif" alt="">
+          <p>Ali Hossam 2<br>Lorem</p><br>
+        </div>
+        <div class="right">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+        </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatem soluta sed perspiciatis quod quidem reiciendis, sint dignissimos eveniet ratione dolores veniam deserunt harum repellat illum! Molestias corporis quo harum.</p>
+      </div>
+      <div class="review-box 2 hidden">
+        <div class="top ">
+          <div class="left  ">
+          <img src="images/C1.jfif" alt="">
+          <p>Ali Hossam 2<br>Lorem</p><br>
+        </div>
+        <div class="right">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+        </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatem soluta sed perspiciatis quod quidem reiciendis, sint dignissimos eveniet ratione dolores veniam deserunt harum repellat illum! Molestias corporis quo harum.</p>
+      </div>
+      <div class="review-box 2 hidden">
+        <div class="top ">
+          <div class="left  ">
+          <img src="images/C2.jfif" alt="">
+          <p>Ali Hossam 2<br>Lorem</p><br>
+        </div>
+        <div class="right">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+        </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatem soluta sed perspiciatis quod quidem reiciendis, sint dignissimos eveniet ratione dolores veniam deserunt harum repellat illum! Molestias corporis quo harum.</p>
+      </div>
+      <div class="review-box 3 hidden">
+        <div class="top ">
+          <div class="left  ">
+          <img src="images/C2.jfif" alt="">
+          <p>Ali Hossam 3<br>Lorem</p><br>
+        </div>
+        <div class="right">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+        </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatem soluta sed perspiciatis quod quidem reiciendis, sint dignissimos eveniet ratione dolores veniam deserunt harum repellat illum! Molestias corporis quo harum.</p>
+      </div>
+      <div class="review-box 3 hidden">
+        <div class="top ">
+          <div class="left  ">
+          <img src="images/C2.jfif" alt="">
+          <p>Ali Hossam 3<br>Lorem</p><br>
+        </div>
+        <div class="right">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+        </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatem soluta sed perspiciatis quod quidem reiciendis, sint dignissimos eveniet ratione dolores veniam deserunt harum repellat illum! Molestias corporis quo harum.</p>
+      </div>
+      <div class="review-box 3 hidden">
+        <div class="top ">
+          <div class="left  ">
+          <img src="images/C2.jfif" alt="">
+          <p>Ali Hossam 3<br>Lorem</p><br>
+        </div>
+        <div class="right">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+        </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatem soluta sed perspiciatis quod quidem reiciendis, sint dignissimos eveniet ratione dolores veniam deserunt harum repellat illum! Molestias corporis quo harum.</p>
+      </div>
+    </div>    
+      <div class="btn"><i class="fa-regular fa-circle"></i></div>
+      <div class="btn"><i class="fa-regular fa-circle"></i></div>
+      <div class="btn active"><i class="fa-regular fa-circle"></i></div>
+  </div>
+  <div class="join" id="join">
+    <div class="text">
+        <h2>join in and get 15% off!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <input class="textArea" type="email" name="" id="text" placeholder="Eamil Adress"> <input class="button" type="button" value="Subscribe">
+    </div>
+  </div>
+  <!-- Footer -->
+<footer class="text-center text-lg-start  text-white">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-circle me-3"> Coffee</i>
+          </h6>
+          
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            privacy
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            SErvices
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">About  Us</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/master.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+  </body>
+</html>
